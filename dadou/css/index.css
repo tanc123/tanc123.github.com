@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{width:100%;height:450px;}
+.maincontent{width:1200px;height:auto; overflow:hidden; margin:10px auto;}
+.tuijianbox{width:100%;height:auto; overflow:hidden;}
+.tuijianbox .tuijiantitle{width:210px;height:141px;}
+.tuijianbox .tuijicp{width:990px;height:141px;}
+.tuijicp ul li{width:246px;height:141px; background-color:#fff; margin-right:1.5px; text-align:left; float:left;}
+.tuijicp ul li div.tuijleft{width:100px;height:141px; float:left; padding-left:20px;}
+.tuijicp ul li div.tuijleft h3 a{ font-size:16px; color:#000; display:block; margin-top:10px;}
+.tuijicp ul li div.tuijleft span{ display:block; color:#666; font-size:12px;}
+.tuijicp ul li div.tuijleft a.goumai{ display:block; background:url(../images/goumaibgn.png) no-repeat; color:#fff;width:67px;height:21px; text-align:center; margin-top:10px; line-height:21px;}
+.tuijicp ul li div.tuijright{width:126px;height:141px; float:right;}
+.tuijicp ul li div.tuijright img{ max-width:126px; max-height:141px;}
+.onepb{width:100%;height:auto; overflow:hidden; margin-top:20px;}
+.floor_title{width:100%;height:35px; line-height:35px; border-bottom:2px solid #ff2832;}
+.floor_title h3{ color:#484848; font-size:16px;}
+.floor_title p{ line-height:35px; color:#5f5f5f;}
+.floor_title p a{ color:#5f5f5f; margin:0 5px;}
+.floor_body{width:100%;height:auto; overflow:hidden; clear:both; text-align:left;}
+.floor_left{width:211px;height:auto; overflow:hidden; float:left;}
+.floor_cent{width:408px;height:417px; overflow:hidden; float:left; margin-left:1px;}
+.floor_cent img{width:408px;height:417px;}
+.floor_right{width:580px;height:auto; overflow:hidden; float:right;}
+.floorgg{width:211px;height:316px; overflow:hidden;}
+.floorgg img{width:211px;height:auto;}
+.floorfeilei{width:auto;height:76px; padding:25px 0 0 5px;}
+.floorfeilei a{width:58px;height:23px; display:inline-block; border:1px solid #ededed; text-align:center; color:#525252;margin:0 5px 5px 0; line-height:23px;}
+.floor_right ul li{width:289px;height:207px; float:left; border-left:1px solid #ededed; border-bottom:1px solid #ededed; text-align:center;}
+.floor_right ul li img{ max-width:287px;height:150px;}
+.floor_right ul li strong{ display:block; font-size:14px; color:#525252; line-height:25px;}
+.floor_right ul li span{ display:block; color:#ec0021; font-size:14px;}
+.floor_midd{width:988px;height:417px; float:right;}
+.floor_midd .floor_big{width:493px;height:208px; float:left; border-bottom:1px solid #ededed;}
+.floor_midd .floor_big img{width:493px;height:208px;}
+.floor_midd ul{width:100%;height:auto; overflow:hidden;}
+.floor_midd ul li{width:246px;height:208px; float:left; border-left:1px solid #ededed;text-align:center;}
+.floor_midd ul li img{ max-width:245px;height:150px;}
+.floor_midd ul li strong{ display:block; font-size:14px; color:#525252; line-height:25px;}
+.floor_midd ul li span{ display:block; color:#ec0021; font-size:14px;}

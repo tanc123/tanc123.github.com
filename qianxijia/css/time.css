@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+.view-container {
+position: absolute;
+display: block;
+width: 100%;
+height: 100%;
+}
+.choseTimePage {
+padding:20px 10px;
+height:auto;
+overflow:hidden;
+background: #fff;
+}
+.timeDuans {
+background: #fff;
+padding: 10px;
+}
+.choseDay {
+width: 88%;
+text-align: center;
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -moz-flex;
+display: -ms-flexbox;
+display: flex;
+}
+.choseDay a.active {
+background: #ff9900;
+border:1px dashed #ff9900;
+}
+.choseDay a {
+width:20%;
+height: 40px;
+display: block;
+font-size: 1rem;
+-webkit-box-flex: 1;
+-webkit-flex: 1;
+-moz-box-flex: 1;
+-moz-flex: 1;
+-ms-flex: 1;
+flex: 1;
+border:1px dashed #ff6d27;
+overflow: hidden;
+margin-right:5px;
+border-radius:20px;
+}
+.choseDay a.active p {
+color: #fff !important;
+}
+p.days {
+color: #252525;
+font-size: 1.4rem;
+line-height: 12px;
+margin: 5px 0 0;
+}
+p.daysTime {
+color: #959595;
+font-size: 1.2rem;
+margin-bottom: 0;
+margin-top:0;
+}
+a.otherDay {
+width: 12%;
+height: 30px;
+line-height:20px;
+border-radius:5px;
+text-align: center;
+background: #f5f5f5;
+margin-top:5px;
+}
+a.otherDay i {
+font-size: 1.2rem;
+margin:0;
+}
+a.otherDay i img{width:18px;}
+.timeDuans h4 {
+color: #8e8e8e;
+font-size: 1.6rem;
+text-align:center;
+}
+.timeDuans h5 {
+font-size: 1.6rem;
+color: #6d6d6d;
+}
+.timeDuans h5 i.h-color{color:#ff6d27; font-style:normal;}
+ul.timeList {
+overflow: hidden;margin:0;padding:0;
+}
+ul.timeList p {
+text-align: center;
+line-height: 30px;
+color: red;
+}
+ul.timeList li {
+float: left;
+width: 30%;
+margin: 0 10px 10px 0;
+}
+a[href]:hover {
+cursor: pointer;
+}
+ul.timeList li a {
+font-size: 1.6rem;
+color: #000;
+display: block;
+padding: 5px 10px;
+border: 1px solid #dadada;
+text-align: center;
+border-radius: 4px;
+}
+.ng-hide:not(.ng-hide-animate) {
+display: none !important;
+}
+.scroll-bar-v {
+top: 2px;
+right: 3px;
+bottom: 2px;
+width: 3px;
+}
+.scroll-bar {
+position: absolute;
+z-index: 9999;
+}
+scroll-bar-indicator.scroll-bar-fade-out {
+opacity: 0;
+}
+.scroll-bar-v .scroll-bar-indicator {
+width: 100%;
+}
+.scroll-bar-indicator {
+position: absolute;
+border-radius: 4px;
+background: rgba(0, 0, 0, 0.3);
+opacity: 1;
+-webkit-transition: opacity 0.3s linear;
+transition: opacity 0.3s linear;
+}
+.pickadate {
+font-family: 'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;
+}
+.pickadate-header {
+position: relative;
+}
+.pickadate-controls {
+position: absolute;
+z-index: 10;
+width: 100%;
+}
+.pickadate-centered-heading {
+font-weight: normal;
+text-align: center;
+font-size: 1em;
+line-height: 2rem;
+color: #252525;
+}
+.pickadate-controls .pickadate-prev {
+float: left;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate) {
+display: none !important;
+}
+button.pickadate-prev, button.pickadate-next {
+color: #959595;
+background: none;
+border: none;
+font-size: 1.2rem;
+}
+.pickadate-controls .pickadate-next {
+float: right;
+}
+.pickadate-main {
+margin: 0;
+padding: 0;
+width: 100%;
+text-align: center;
+font-size: 12px;
+}
+.pickadate-cell {
+overflow: hidden;
+margin: 0;
+padding: 0;
+margin-bottom: 5px;
+}
+.pickadate-cell .pickadate-head:nth-child(1), .pickadate-cell .pickadate-head:nth-child(7) {
+background: #f3f3f3;
+}
+.pickadate-cell li:nth-child(1), .pickadate-cell li:nth-child(8), .pickadate-cell li:nth-child(15), .pickadate-cell li:nth-child(22), .pickadate-cell li:nth-child(29), .pickadate-cell li:nth-child(36) {
+border-left: 1px solid #DCDCDC;
+}
+.pickadate-cell .pickadate-head {
+border-top: 1px solid #b5b5b5;
+border-bottom: 1px solid #b5b5b5;
+background: #f3f3f3;
+}
+ul.dateDates li {
+background: none !important;
+color: #959595;
+}
+.pickadate-cell li {
+display: block;
+float: left;
+border-width: 0 1px 1px 0;
+width: 14.285%;
+padding: 1.3% 0 1.3% 0;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.button.button-positive {
+border-color: #f90;
+background-color: #f90;
+color: #fff;
+}
+button.suerDate {
+color: #fff !important;
+}
+.button-small {
+min-width: 6rem !important;
+text-align: center;
+}
+.pickadate-cell .pickadate-active {
+color: white;
+}
+.pickadate-cell .pickadate-active {
+background-color: #ff9900;
+}
