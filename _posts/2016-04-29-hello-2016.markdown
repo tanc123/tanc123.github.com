@@ -10,9 +10,6 @@ tags:
     - 博客
     - GitHub Pages
     - Jekyll
-    - 博客1
-    - GitHub Pages1
-    - Jekyll1
 ---
 
 > “Yeah It's on. ”
