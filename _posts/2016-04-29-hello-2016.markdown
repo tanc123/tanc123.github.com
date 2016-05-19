@@ -1,0 +1,75 @@
+---
+layout:     post
+title:      "Hello 2016"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2016-04-29 12:00:00
+author:     "Tc"
+header-img: "img/post-bg-2016.jpg"
+catalog: true
+tags:
+    - 博客
+    - GitHub Pages
+    - Jekyll
+    - 博客1
+    - GitHub Pages1
+    - Jekyll1
+---
+
+> “Yeah It's on. ”
+
+
+## 前言
+
+TC 的 Blog 就这么开通了哦。
+
+
+2016 年，总算有个地方可以好好写点东西了。
+
+
+
+
+<p id = "build"></p>
+---
+
+## 正文
+
+接下来说说搭建这个博客的技术细节。  
+
+博客是基于 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。
+
+
+
+
+---
+
+但是配置本地环境的过程中需要注意
+
+*  当安装好 Python、ruby、easy_install 过后。在使用gem安装jekyll的时候会出现找不到证书或证书过期的错误、在设置镜像的时候也会报同样的错。
+
+如图1![证书]({{ site.url }}/img/hello/specs.png)
+
+如图2![证书]({{ site.url }}/img/hello/sources.png)
+
+这两个问题的原因是 Windows 下证书无法验证，ruby 没有包含 SSL 证书，所以 https 的链接被服务器拒绝。
+
+解决方法很简单，首先在这里 [下载证书]({{ site.url}}/download/cacert.pem). 然后再环境变量里设置  ``` SSL_CERT_FILE ``` 这个环境变量，并指向 cacert.pem 文件,执行设置镜像的命令 
+
+``` $ gem sources --add https://ruby.taobao.org/  ```
+
+``` $ gem sources -l ```
+
+如果有多个镜像地址就执行 ``` $ gem remove 其他镜像地址 ```  删除，以确保只有新添加的地址。
+ 
+然后执行下载jekyll命令 ``` gem install jekyll ```  OK 安装成功 如下图
+
+如图3![证书]({{ site.url }}/img/hello/sources-l.png)
+
+如图4![证书]({{ site.url }}/img/hello/jekyll.png)
+
+## 后记
+
+回顾这个博客的诞生，纯粹是出于个人兴趣。
+
+—— Tc 后记于 2016.4
+
+
