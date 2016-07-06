@@ -125,7 +125,15 @@
         })
     }
 </script>
-
+<!--链接新窗口打开-->
+<script type="text/javascript">
+    $(document).ready(function() {
+        //为超链接加上target='_blank'属性
+        $('a[href^="http"]').each(function() {
+            $(this).attr('target', '_blank');
+        });
+    });
+</script>
 <!--fastClick.js -->
 <script>
     async("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
