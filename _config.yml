@@ -5,7 +5,8 @@ header-img: img/home-bg.jpg
 email: 
 description: ""
 keyword: ""
-url: "http://tanchao.me"              # your host, for absolute URL
+#url: "http://tanchao.me"              # your host, for absolute URL
+url:""
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
